@@ -1,0 +1,116 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("assets/images/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  background-image: url("./images/logo.png");
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-left: 105px;
+}
+.navbar img{
+    width: 200px;
+}
+hr {
+  width: 89%;
+}
+.h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: 400;
+
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards button {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  margin: 2px;
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  font-size: 13px;
+}
+.cards button:hover {
+  background-color: #7a3e65;
+  transition: 0.2s ease-in-out all;
+  color: #fff;
+}
+
+.img-card img {
+  width: 300px;
+  height: auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.img-card img:hover{
+    opacity: 0.8;
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+    border: 2px solid #f1f1f1;
+}
+.img-card h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+}
+.cards p {
+  width: 300px;
+  align-self: center;
+  text-align: center;
+  font-size: 14px;
+}
+footer{
+    color: #fff;
+    background-color: #0f1111;
+    opacity: 0.8;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    position: absolute;
+    height: 125px;
+    right: 0;
+    left: 0;
+}
+.icon-section{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: space-evenly;
+}
+
+.icon-section img{
+    width: 30px;
+    cursor: pointer;
+}
+
